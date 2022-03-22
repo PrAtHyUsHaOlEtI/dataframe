@@ -1,4 +1,4 @@
-#creating a Data Frame with % observations whose data will be given by user
+#creating a Data Frame with 5 observations whose data will be given by user in python
 import pandas as pd
 Serial = [int(x) for x in input().split(" ")]
 Names= [x for x in input().split(" ")]

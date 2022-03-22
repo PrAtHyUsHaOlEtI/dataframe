@@ -1,0 +1,11 @@
+#creating a Data Frame with % observations whose data will be given by user
+import pandas as pd
+Serial = [int(x) for x in input().split(" ")]
+Names= [x for x in input().split(" ")]
+Branch = [x for x in input().split(" ")]
+Section= [int(x) for x in input().split(" ")]
+Marks =[int(x) for x in input().split(" ")]
+
+# printing the data frame
+data = pd.DataFrame({"Serial": Serial, "Names": Names, "Branch":Branch, "Section":Section, "Marks":Marks})
+print(data)
